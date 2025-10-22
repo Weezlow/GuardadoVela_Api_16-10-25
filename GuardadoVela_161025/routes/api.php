@@ -11,4 +11,4 @@ Route::get('/user', function (Request $request) {
 
 Route::get('/zonas',[ZonaController::class,'obtenerZonas']); //Plural
 
-Route::get('/zona/{idzona}',[ZonaController::class,'obtenerZonas']); //Singular
+Route::get('/zona/{idzona}',[ZonaController::class,'obtenerZona']); //Singular

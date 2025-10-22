@@ -9,10 +9,10 @@ class Zona extends Model
     //
     
     protected $connection = 'mysql';
-    protected $stable = 'zona';
+    protected $table = 'zona';
     protected $primaryKey = 'id_zona';
-    protected $incrementing = true;
-    protected $timestamps = false;
+    public $incrementing = true;
+    public $timestamps = false;
 
 
 }
